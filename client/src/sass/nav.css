@@ -1,0 +1,86 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #212529;
+}
+
+nav {
+  font-size: 2rem;
+  width: 95%;
+  margin: auto;
+  margin-top: 10px;
+  z-index: 10;
+}
+
+nav img {
+  height: 9rem;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  letter-spacing: 1px !important;
+  margin: 0px 0px 0px 17px;
+}
+
+.navbar-brand span {
+  color: #2ecc71;
+  margin-left: 2px;
+}
+
+.navbar-nav {
+  position: absolute;
+  right: 10px;
+}
+
+.nav-item {
+  margin-right: 50px;
+}
+
+.nav-item a:hover {
+  color: #e74c3c !important;
+  -webkit-filter: blur(0.6px);
+          filter: blur(0.6px);
+}
+
+.dropdown-item {
+  font-size: 1.6rem !important;
+}
+
+.nav-link {
+  color: #fff !important;
+  letter-spacing: 1.7px;
+}
+
+@media only screen and (max-width: 985px) {
+  html {
+    font-size: 55.5%;
+  }
+  .navbar-toggler {
+    background-color: #e74c3c;
+    font-size: 1.8rem;
+    border-radius: 7px;
+  }
+  .dropdown-item {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  .navbar-nav {
+    background-color: #2ecc71;
+    height: 14rem;
+    width: 47%;
+    border-radius: 7px !important;
+  }
+  .navbar-nav li {
+    margin-right: 0px;
+  }
+}
+/*# sourceMappingURL=nav.css.map */

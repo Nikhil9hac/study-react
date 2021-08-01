@@ -1,0 +1,110 @@
+#study-material {
+  margin-bottom: 18rem;
+}
+
+.separator {
+  font-size: 3rem;
+}
+
+#searcherBar {
+  border: 2px solid #fff;
+  width: 29rem;
+  height: 3.5rem;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+}
+
+#containerSearcher {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hide {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  display: none;
+  position: absolute;
+  width: 95vw;
+}
+
+main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (150px)[5];
+      grid-template-columns: repeat(5, 150px);
+  -ms-grid-rows: (150px)[2];
+      grid-template-rows: repeat(2, 150px);
+  grid-row-gap: 25rem;
+  grid-column-gap: 10rem;
+  -ms-grid-columns: (minmax(150px, 200px))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(150px, 200px));
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 2.5rem;
+}
+
+.card {
+  width: 21rem;
+  height: 34rem;
+  border-radius: 10px !important;
+}
+
+.card img {
+  width: 11rem;
+  margin-top: 25px;
+  height: 8rem;
+}
+
+.card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  bottom: 3%;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.card-title {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.study-material-button {
+  width: 57%;
+  font-size: 1.6rem;
+}
+
+@media only screen and (max-width: 530px) {
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    grid-row-gap: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .card {
+    margin-bottom: 45px;
+  }
+}
+/*# sourceMappingURL=study-material.css.map */

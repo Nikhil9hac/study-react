@@ -1,0 +1,90 @@
+.request-container {
+  margin-top: 45px;
+}
+
+.top img {
+  height: 30rem;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+input {
+  width: 45%;
+  font-size: 1.4rem;
+  margin-bottom: 17px;
+  background-color: transparent;
+  color: #fff;
+  padding: 0px 0px 2px 7px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #fff;
+}
+
+input:hover {
+  border-bottom-color: green;
+}
+
+#submitBtn {
+  background-color: aqua;
+  width: 9rem;
+  height: 3.8rem;
+  font-size: 1.5rem;
+  border-radius: 7px;
+  margin-top: 20px;
+  background-color: #e74c3c;
+  letter-spacing: 0.8px;
+  border: 1px solid #ffff;
+}
+
+textarea {
+  font-size: 1.5rem;
+  padding: 12px;
+  outline: none;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  width: 50%;
+}
+
+.alert-success {
+  display: none;
+}
+
+.alert-danger {
+  display: none;
+}
+
+@media only screen and (max-width: 991px) {
+  input {
+    width: 65%;
+  }
+  textarea {
+    width: 65%;
+  }
+  .top img {
+    height: 25rem;
+  }
+}
+
+@media only screen and (max-width: 589px) {
+  input {
+    width: 85%;
+  }
+  textarea {
+    width: 80%;
+  }
+  .top img {
+    height: 18rem;
+  }
+}
+/*# sourceMappingURL=request.css.map */

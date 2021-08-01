@@ -1,0 +1,65 @@
+p {
+  font-size: 1.5rem;
+}
+
+.olymiad-option button {
+  font-size: 3rem;
+  width: 10rem;
+  margin: 25px 16px 0px 20px;
+}
+
+.olymaid-target {
+  width: 95%;
+  margin: 40px auto;
+}
+
+.question {
+  font-size: 2.5rem;
+  color: #0097e6;
+}
+
+.foundation-book {
+  width: 59%;
+  margin: auto;
+}
+
+.foundation p {
+  margin-top: 1.2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.pyqs {
+  display: none;
+}
+
+.registration {
+  display: none;
+}
+
+.zone {
+  font-size: 3rem;
+  color: #e74c3c;
+}
+
+.material-widget {
+  font-size: 1.4rem;
+}
+
+.material-widget li {
+  margin: 12px 38px 10px 7px;
+}
+
+.foundation-img img {
+  width: 15%;
+}
+
+@media only screen and (max-width: 738px) {
+  .olymiad-image img {
+    height: 13rem;
+  }
+  .foundation-img img {
+    width: 35%;
+  }
+}
+/*# sourceMappingURL=olymiad.css.map */
